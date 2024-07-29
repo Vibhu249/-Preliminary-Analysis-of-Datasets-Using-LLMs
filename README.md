@@ -8,7 +8,7 @@ Below are the details of each folder and file.
 
 ### Folders and Files:
 #### • Research folder: Contains all research conducted throughout the project development process, including files with and without errors.
-- **Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
+**- Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
 #### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML
 templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
 #### • Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data
