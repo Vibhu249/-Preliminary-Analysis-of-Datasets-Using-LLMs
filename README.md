@@ -1,19 +1,18 @@
-Preliminary Analysis of Datasets Using LLMs
+# Preliminary Analysis of Datasets Using LLMs
 This repository contains all the necessary files for the preliminary analysis of datasets using large language models (LLMs). 
 Below are the details of each folder and file.
 
-Note:
+### Note:
 • You need to have API keys from OpenAI (paid) and HuggingFace (free) to run any GPT models.
-• Install the LLMs from Ollama and HuggingFace. Models from Ollama are necessary to run all files, 
-including Python files or the Streamlit web app.
+• Install the LLMs from Ollama and HuggingFace. Models from Ollama are necessary to run all files, including Python files or the Streamlit web app.
 
-Folders and Files:
-• Research folder: Contains all research conducted throughout the project development process, including files with and without errors.
+### Folders and Files:
+#### • Research folder: Contains all research conducted throughout the project development process, including files with and without errors.
 - Dockerfile: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
 • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML
 templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
-• Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. 
-It serves as a repository for the data required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and
+• Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data
+required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and
 provide valuable resources for experimentation and validation of the project's methodologies.
 
 Jupyter Notebooks:
@@ -26,7 +25,8 @@ Jupyter Notebooks:
 • OpenAI_GPT_x_LangChain.ipynb: Utilizes 'gpt-4' model within the LangChain framework for NLP tasks.
 • Snip.ipynb: Contains the latest code snippets, functions, and techniques used in the project, including optimizations and GPU utilization.
 
-These folders and files collectively contribute to the development, experimentation, and documentation of the preliminary analysis of datasets using LLMs. They serve as valuable resources for understanding, implementing, and extending the project's functionalities.
+These folders and files collectively contribute to the development, experimentation, and documentation of the preliminary analysis of datasets using LLMs. 
+They serve as valuable resources for understanding, implementing, and extending the project's functionalities.
 
 Installing Local Models:
 To install and use the local models, follow these steps:
