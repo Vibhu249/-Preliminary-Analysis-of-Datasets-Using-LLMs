@@ -14,12 +14,19 @@ Below are the details of each folder and file.
 
 ### Jupyter Notebooks:
 • **Codegemma_x_LangChain.ipynb**: Code snippets for running the 'codegemma' model based on Ollama within the LangChain framework.
+
 • **Llama2_x_LangChain.ipynb**: Utilizes the 'llama2' model within the LangChain framework for NLP tasks.
+
 • **Llama3_x_LangChain.ipynb**: Showcases 'llama3' model capabilities for text analysis and generation.
+
 • **LLaVa_x_LangChain.ipynb**: Integrates 'llava' model into the LangChain framework for text processing.
+
 • **Mistral_x_LangChain.ipynb**: Demonstrates 'mistral' model usage for NLP tasks within the LangChain framework.
+
 • **Mixtral_x_LangChain.ipynb**: Highlights 'mixtral' model functionalities for various text-related tasks.
+
 • **OpenAI_GPT_x_LangChain.ipynb**: Utilizes 'gpt-4' model within the LangChain framework for NLP tasks.
+
 • **Snip.ipynb**: Contains the latest code snippets, functions, and techniques used in the project, including optimizations and GPU utilization.
 
 These folders and files collectively contribute to the development, experimentation, and documentation of the preliminary analysis of datasets using LLMs. 
