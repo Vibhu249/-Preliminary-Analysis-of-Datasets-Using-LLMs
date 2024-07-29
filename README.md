@@ -36,7 +36,11 @@ They serve as valuable resources for understanding, implementing, and extending 
 To install and use the local models, follow these steps:
 
 • **Install Unix/Linux on Windows (if using)**. Alternatively, you can directly run ollama setup in Linux and Mac.
+
 • **Download Ollama setup for Linux**.
+
 • **Open CMD prompt and run the command** ‘ollama pull’ to pull a model from the repository.
+
 • Once the model is successfully installed, run ‘ollama serve’ to start its server.
+
 • To run, simply open any of the Ollama-based Jupyter Notebook files and execute the code. It will automatically start generating results.
