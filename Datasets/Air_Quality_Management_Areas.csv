@@ -1,0 +1,7 @@
+﻿OBJECTID,Id,Name_of_AQ,Pollutant,Declared,Policy_doc,Shapearea,Shapelen
+1,1,City Centre,NO2,2000/12/31 00:00:00+00,www.edinburgh.gov.uk/airquality,1055481.33042857,31207.0322883288
+2,2,St John's Road,NO2,2006/12/31 00:00:00+00,www.edinburgh.gov.uk/airquality,22522.99064279,2616.51347924373
+3,3,Great Junction Street,NO2,2009/03/09 00:00:00+00,www.edinburgh.gov.uk/airquality,42531.569992805,4455.9891870102
+4,4,Glasgow Road,NO2,2013/04/26 00:00:00+00,www.edinburgh.gov.uk/airquality,43546.759137825,2021.95713423112
+5,5,Inverleith Row,NO2,2013/04/26 00:00:00+00,www.edinburgh.gov.uk/airquality,7178.06560951,829.587272827133
+6,6,Salamander Street,PM10,2017/01/20 00:00:00+00,www.edinburgh.gov.uk/airquality,430634.997328205,4821.56311112419
