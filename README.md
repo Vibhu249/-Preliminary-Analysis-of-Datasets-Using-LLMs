@@ -7,7 +7,6 @@ Below are the details of each folder and file.
 • Install the LLMs from Ollama and HuggingFace. Models from Ollama are necessary to run all files, including Python files or the Streamlit web app.
 
 ### Folders and Files:
-#### • Research folder: Contains all research conducted throughout the project development process, including files with and without errors.
 **- Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
 #### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
 #### • Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and provide valuable resources for experimentation and validation of the project's methodologies.
