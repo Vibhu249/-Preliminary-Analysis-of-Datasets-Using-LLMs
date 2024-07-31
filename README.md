@@ -1,4 +1,7 @@
 # Preliminary Analysis of Datasets Using LLMs
+
+https://github.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/blob/main/FlowChart.png
+
 This repository contains all the necessary files for the preliminary analysis of datasets using large language models (LLMs). 
 Below are the details of each folder and file.
 
