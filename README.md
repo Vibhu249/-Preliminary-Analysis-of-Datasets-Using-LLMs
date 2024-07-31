@@ -4,6 +4,7 @@ Below are the details of each folder and file.
 
 ### Note:
 • You need to have API keys from OpenAI (paid) and HuggingFace (free) to run any GPT models.
+
 • Install the LLMs from Ollama and HuggingFace. Models from Ollama are necessary to run all files, including Python files or the Streamlit web app.
 
 ### Folders and Files:
