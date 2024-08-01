@@ -35,6 +35,8 @@ Below are the details of each folder and file.
 These folders and files collectively contribute to the development, experimentation, and documentation of the preliminary analysis of datasets using LLMs. 
 They serve as valuable resources for understanding, implementing, and extending the project's functionalities.
 
+![File Formats](https://raw.githubusercontent.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/main/Fileformats.png)
+
 ### Installing Local Models:
 To install and use the local models, follow these steps:
 
@@ -47,3 +49,5 @@ To install and use the local models, follow these steps:
 • Once the model is successfully installed, run ‘ollama serve’ to start its server.
 
 • To run, simply open any of the Ollama-based Jupyter Notebook files and execute the code. It will automatically start generating results.
+
+![Performance Heatmap](https://raw.githubusercontent.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/main/Performance_heatmap.png)
