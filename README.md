@@ -1,14 +1,15 @@
 # Preliminary Analysis of Datasets Using LLMs
 
-![Flow Chart](https://github.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/blob/main/FlowChart.png)
-
 This repository contains all the necessary files for the preliminary analysis of datasets using large language models (LLMs). 
 Below are the details of each folder and file.
 
-### Note:
-• You need to have API keys from OpenAI (paid) and HuggingFace (free) to run any GPT models.
+![Flow Chart](https://github.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/blob/main/FlowChart.png)
 
-• Install the LLMs from Ollama and HuggingFace. Models from Ollama are necessary to run all files, including Python files or the Streamlit web app.
+### Note:
+• You need appropriate API keys from OpenAI (paid) and HuggingFace (free) to run any GPT models present.
+
+• You also need to install the LLMs from Ollama and HuggingFace. Getting models from Ollama and installing them on your system is necessary to run all the files, including Python files or the Streamlit web app.
+
 
 ### Folders and Files:
 **• Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
@@ -37,6 +38,10 @@ They serve as valuable resources for understanding, implementing, and extending 
 
 ![File Formats](https://raw.githubusercontent.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/main/Fileformats.png)
 
+
+![Performance Heatmap](https://raw.githubusercontent.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/main/Performance_heatmap.png)
+
+
 ### Installing Local Models:
 To install and use the local models, follow these steps:
 
@@ -50,4 +55,3 @@ To install and use the local models, follow these steps:
 
 • To run, simply open any of the Ollama-based Jupyter Notebook files and execute the code. It will automatically start generating results.
 
-![Performance Heatmap](https://raw.githubusercontent.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/main/Performance_heatmap.png)
