@@ -8,16 +8,16 @@ Below are the details of each folder and file.
 ### Introduction
 
 You can use this project to:
-• Load and clean datasets.
-• Run LLM-driven summaries or suggestions on your data.
-• Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers.
-• Interactively explore data and LLM outputs in a Streamlit web app.
-• Keep environment consistent using Docker with GPU support.
+**•** Load and clean datasets.
+**•** Run LLM-driven summaries or suggestions on your data.
+**•** Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers.
+**•** Interactively explore data and LLM outputs in a Streamlit web app.
+**•** Keep environment consistent using Docker with GPU support.
 
 You need:
-• API keys (e.g., `OPENAI_API_KEY`, `HF_TOKEN`) to call paid/free LLM services.
-• Local LLM setup if you use Ollama or certain HuggingFace models.
-• Docker (and NVIDIA Container Toolkit if you want GPU inside containers).
+**• API keys** (e.g., `OPENAI_API_KEY`, `HF_TOKEN`) to call paid/free LLM services.
+**• Local LLM** setup if you use Ollama or certain HuggingFace models.
+**• Docker** (and NVIDIA Container Toolkit if you want GPU inside containers).
 
 
 ### Folders and Files:
