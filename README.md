@@ -7,8 +7,6 @@ Below are the details of each folder and file.
 
 ### Introduction
 
-### Introduction
-
 You can use this project to:  
 • Load and clean datasets  
 • Run LLM-driven summaries or suggestions on your data 
