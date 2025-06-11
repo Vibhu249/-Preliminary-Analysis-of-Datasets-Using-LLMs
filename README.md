@@ -40,22 +40,32 @@ Holds reusable Python modules and packages for the project. These modules centra
 Stores datasets used throughout the project for data analysis, model training, and algorithm testing. It serves as a central data repository supporting experimentation and validation across various domains.
 
 
-### Notebooks:
-• **Codegemma_x_LangChain.ipynb**: Code snippets for running the 'codegemma' model based on Ollama within the LangChain framework.
+### 📒 Notebooks
 
-• **Llama2_x_LangChain.ipynb**: Utilizes the 'llama2' model within the LangChain framework for NLP tasks.
+💻 **Codegemma_x_LangChain.ipynb**  
+Code snippets for running the `codegemma` model (via Ollama) using LangChain for structured interaction.
 
-• **Llama3_x_LangChain.ipynb**: Showcases 'llama3' model capabilities for text analysis and generation.
+🦙 **Llama2_x_LangChain.ipynb**  
+Demonstrates use of the `llama2` model in the LangChain framework for natural language processing (NLP) tasks.
 
-• **LLaVa_x_LangChain.ipynb**: Integrates 'llava' model into the LangChain framework for text processing.
+🦙 **Llama3_x_LangChain.ipynb**  
+Showcases the `llama3` model's capabilities for text analysis, summarisation, and generation.
 
-• **Mistral_x_LangChain.ipynb**: Demonstrates 'mistral' model usage for NLP tasks within the LangChain framework.
+📊 **LLaVa_x_LangChain.ipynb**  
+Integrates the `llava` model within LangChain to process and interpret textual content.
 
-• **Mixtral_x_LangChain.ipynb**: Highlights 'mixtral' model functionalities for various text-related tasks.
+🌪️ **Mistral_x_LangChain.ipynb**  
+Explores `mistral` model applications for various NLP tasks via LangChain.
 
-• **OpenAI_GPT_x_LangChain.ipynb**: Utilizes 'gpt-4' model within the LangChain framework for NLP tasks.
+🔀 **Mixtral_x_LangChain.ipynb**  
+Highlights `mixtral` model features for versatile text-related operations within LangChain.
 
-• **Snip.ipynb**: Contains the latest code snippets, functions, and techniques used in the project, including optimizations and GPU utilization.
+🤖 **OpenAI_GPT_x_LangChain.ipynb**  
+Uses the `gpt-4` model (via OpenAI API) within LangChain for language understanding and generation tasks.
+
+✂️ **Snip.ipynb**  
+Contains recent code snippets, utility functions, and project techniques, including GPU acceleration and optimisation workflows.
+
 
 These folders and files collectively contribute to the development, experimentation, and documentation of the preliminary analysis of datasets using LLMs. 
 They serve as valuable resources for understanding, implementing, and extending the project's functionalities.
