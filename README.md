@@ -16,7 +16,7 @@ Below are the details of each folder and file.
 #### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
 #### • Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and provide valuable resources for experimentation and validation of the project's methodologies.
 
-### Jupyter Notebooks:
+### Notebooks:
 • **Codegemma_x_LangChain.ipynb**: Code snippets for running the 'codegemma' model based on Ollama within the LangChain framework.
 
 • **Llama2_x_LangChain.ipynb**: Utilizes the 'llama2' model within the LangChain framework for NLP tasks.

@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        HF_TOKEN: "${HF_TOKEN}"
+    image: preliminary-analysis:latest
+    container_name: preliminary_analysis
+    volumes:
+      - ./notebooks:/tf/notebooks
+      - ./data:/app/data
+      - ./src:/app/src
+    ports:
+      - "8888:8888"
+      - "11434:11434"
+    environment:
+      - HF_TOKEN=${HF_TOKEN}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: >
+      bash -c "source /etc/bash.bashrc &&
+               jupyter notebook --notebook-dir=/tf/notebooks
+               --ip=0.0.0.0 --no-browser --allow-root"
