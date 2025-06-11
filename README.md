@@ -5,11 +5,11 @@ Below are the details of each folder and file.
 
 ![Flow Chart](https://github.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/blob/main/FlowChart.png)
 
-### Introduction
+### Introduction:
 
-You can use this project to:  
+*You can use this project to:  
 • Load and clean datasets  
-• Run LLM-driven summaries or suggestions on your data 
+• Run LLM-driven summaries or suggestions on your data \n 
 • Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers  
 • Interactively explore data and LLM outputs in a Streamlit web app  
 • Keep environment consistent using Docker with GPU support  
