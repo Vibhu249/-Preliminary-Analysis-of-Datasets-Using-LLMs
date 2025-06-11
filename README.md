@@ -7,10 +7,10 @@ Below are the details of each folder and file.
 
 ### Introduction:
 
--You can use this project to:  
+You can use this project to:  
 • Load and clean datasets  
-• Run LLM-driven summaries or suggestions on your data\n
-• Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers  
+• Run LLM-driven summaries or suggestions on your data
+*\n*• Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers  
 • Interactively explore data and LLM outputs in a Streamlit web app  
 • Keep environment consistent using Docker with GPU support  
 
