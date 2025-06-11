@@ -20,7 +20,7 @@ You need:
 
 
 ### Folders and Files:
-**• Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
+**• dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.  
 **• docker-compose.yml**: (optional) defines services for Jupyter Notebook, Ollama server, and Streamlit app, with volume mounts and GPU access.
 #### • Notebooks folder: Jupyter notebooks that demonstrate how to load data, clean it, call LLMs, and visualize results.
 #### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
