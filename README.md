@@ -19,13 +19,26 @@ You need:
 • Docker (and NVIDIA Container Toolkit if you want GPU inside containers).
 
 
-### Folders and Files:
-**• dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.  
-**• docker-compose.yml**: (optional) defines services for Jupyter Notebook, Ollama server, and Streamlit app, with volume mounts and GPU access.
-#### • Notebooks folder: Jupyter notebooks that demonstrate how to load data, clean it, call LLMs, and visualize results.
-#### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
-#### • src Folder: This directory contains reusable Python modules and packages for the project. These modules centralise data loading/processing, LLM integration logic, and any shared helpers used by notebooks or the Streamlit app.
-#### • Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and provide valuable resources for experimentation and validation of the project's methodologies.
+### 📂 Folders and Files
+
+🛠️ **Dockerfile**  
+Creates a Docker image with all required dependencies, libraries, tools, and repositories—ensuring consistency and reproducibility.
+
+🧱 **docker-compose.yml** *(optional)*  
+Defines services for Jupyter Notebook, Ollama server, and the Streamlit app, with volume mounts and GPU access.
+
+📓 **Notebooks folder**  
+Contains Jupyter notebooks that demonstrate how to load data, clean it, call LLMs, and visualise results.
+
+🌐 **Streamlit application folder**  
+Includes all the files necessary to run the Streamlit web application. This includes Python scripts, HTML templates, CSS files, and other resources for both frontend and backend functionality.
+
+🧠 **src folder**  
+Holds reusable Python modules and packages for the project. These modules centralise data loading and processing, LLM integration logic, and shared helper functions used across notebooks and the Streamlit app.
+
+🗃️ **Datasets folder**  
+Stores datasets used throughout the project for data analysis, model training, and algorithm testing. It serves as a central data repository supporting experimentation and validation across various domains.
+
 
 ### Notebooks:
 • **Codegemma_x_LangChain.ipynb**: Code snippets for running the 'codegemma' model based on Ollama within the LangChain framework.
