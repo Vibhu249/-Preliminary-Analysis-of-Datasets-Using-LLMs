@@ -5,15 +5,27 @@ Below are the details of each folder and file.
 
 ![Flow Chart](https://github.com/Vibhu249/-Preliminary-Analysis-of-Datasets-Using-LLMs/blob/main/FlowChart.png)
 
-### Note:
-• You need appropriate API keys from OpenAI (paid) and HuggingFace (free) to run any GPT models present.
+## Introduction
 
-• You also need to install the LLMs from Ollama and HuggingFace. Getting models from Ollama and installing them on your system is necessary to run all the files, including Python files or the Streamlit web app.
+You can use this project to:
+• Load and clean datasets.
+• Run LLM-driven summaries or suggestions on your data.
+• Experiment with different models (OpenAI GPT, HuggingFace, Ollama) via LangChain wrappers.
+• Interactively explore data and LLM outputs in a Streamlit web app.
+• Keep environment consistent using Docker with GPU support.
+
+You need:
+• API keys (e.g., `OPENAI_API_KEY`, `HF_TOKEN`) to call paid/free LLM services.
+• Local LLM setup if you use Ollama or certain HuggingFace models.
+• Docker (and NVIDIA Container Toolkit if you want GPU inside containers).
 
 
 ### Folders and Files:
 **• Dockerfile**: Creates a Docker image with all required dependencies, libraries, tools, and repositories, ensuring consistency and reproducibility.
+**• docker-compose.yml**: (optional) defines services for Jupyter Notebook, Ollama server, and Streamlit app, with volume mounts and GPU access.
+#### • Notebooks folder: Jupyter notebooks that demonstrate how to load data, clean it, call LLMs, and visualize results.
 #### • Streamlit application folder: This folder contains all the files necessary to run the developed Streamlit Web Application. It includes Python scripts, HTML templates, CSS files, and any other resources required for the application's frontend and backend functionalities.
+#### • src Folder: This directory contains reusable Python modules and packages for the project. These modules centralise data loading/processing, LLM integration logic, and any shared helpers used by notebooks or the Streamlit app.
 #### • Dataset Folder: Contains most of the datasets used in the project for analysis, model training, and testing algorithms. It serves as a repository for the data required for conducting analysis, training models, and testing algorithms. The datasets cover a wide range of domains and provide valuable resources for experimentation and validation of the project's methodologies.
 
 ### Notebooks:
